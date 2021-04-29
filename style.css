@@ -1,0 +1,71 @@
+
+@charset "UTF-8";
+
+header{
+	height:80px;
+	box-shadow:0px 1px 10px rgba(44, 11, 194, 0.4);
+	margin:0px 30px;
+	text-align:center;
+}
+
+.title{
+	font-size:40px;
+	color:rgb(42, 8, 189);
+	font-weight:bold;
+}
+a{
+	
+	color:#000000;
+}
+
+.link{ /* 인스타그램, 페이스북 링크 */
+	float:right;
+	height:auto;
+}
+
+/* center내용 */
+.profile_img{
+	width:15%;
+	display:block;
+	margin:0px auto;
+}
+
+.menu1{
+	border:5px solid rgba(20, 62, 250, 0.719);
+	height:200px;	
+	border-radius:5px;
+	text-align:center;
+	background: #ffffff;
+}
+
+.menu2{
+	border:5px solid rgba(20, 62, 250, 0.719);
+	height:200px;	
+	border-radius:5px;
+	text-align:center;
+	background: #ffffff;
+
+}
+
+.menu3{
+	border:5px solid rgba(20, 62, 250, 0.719);
+	height:200px;	
+	border-radius:5px;
+	display:inline-block;
+	text-align:center;
+	background: #ffffff;
+}
+
+
+.content_center_bottom{
+	grid-template-columns: repeat(3, 1fr);
+	display:grid;
+	grid-gap:10%;
+}
+.info{
+	list-style:none;
+}
+
+.adv{
+	text-align:center;
+}
